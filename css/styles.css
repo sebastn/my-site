@@ -47,6 +47,7 @@ hr {
   background-color: #66bfbf;
   padding-top: 25px;
   padding-bottom: 25px;
+  line-height: 2;
 }
 
 .top-cloud {
@@ -88,6 +89,7 @@ hr {
 
 .footer-link {
   margin: 15px;
+width: 50%;
 }
 
 .BUTTON_AHR {
@@ -142,9 +144,9 @@ hr {
 
 .contact-me {
   line-height: 2;
-width: 50%;
-margin: 100px auto 100px auto;
-line-height: 2;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
 }
 
 /*
