@@ -25,6 +25,16 @@ h3 {
   color: #11999E;
 }
 
+a {
+  color: #197163;
+}
+
+hr {
+  border-style: none;
+  border-top: 5px dotted #838383;
+  width: 4%;
+}
+
 /******************************CLASS SELECTORS**********************************/
 .top-container {
   background-color: #e0ece4;
@@ -32,10 +42,11 @@ h3 {
   position: relative;
 }
 
-.middle-container {}
-
 .bottom-container {
   color: #11999e;
+  background-color: #66bfbf;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .top-cloud {
@@ -57,23 +68,87 @@ h3 {
   line-height: 2;
 }
 
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
 .code-image {
   width: 25%;
-float: left;
-margin-right: 30px;
+  float: left;
+  margin-right: 30px;
 }
 
 .data-science-image {
-float: right;
+  float: right;
   width: 25%;
   margin-left: 30px;
+}
+
+.footer-link {
+  margin: 15px;
+}
+
+.BUTTON_AHR {
+  background: #197163;
+  background-image: -webkit-linear-gradient(top, #197163, #46D7C0);
+  background-image: -moz-linear-gradient(top, #197163, #46D7C0);
+  background-image: -ms-linear-gradient(top, #197163, #46D7C0);
+  background-image: -o-linear-gradient(top, #197163, #46D7C0);
+  background-image: linear-gradient(to bottom, #197163, #46D7C0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 25px;
+  line-height: 25px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  width: 110px;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: -2px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_AHR:hover {
+  border: solid #337FED 1px;
+  background: #3E51B5;
+  background-image: -webkit-linear-gradient(top, #3E51B5, #709BCB);
+  background-image: -moz-linear-gradient(top, #3E51B5, #709BCB);
+  background-image: -ms-linear-gradient(top, #3E51B5, #709BCB);
+  background-image: -o-linear-gradient(top, #3E51B5, #709BCB);
+  background-image: linear-gradient(to bottom, #3E51B5, #709BCB);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.button-margin {
+  margin: 25px;
+}
+
+.profile-image {
+  width: 28%;
+}
+
+.contact-me {
+  line-height: 2;
 }
 
 /*
 .machine-learning-paragraph{
   clear: right;
 } */
-
 /* .web-dev-paragraph {
   clear: left;
 }
@@ -83,3 +158,6 @@ float: right;
   text-align: center;
 } */
 /********************************ID SELECTORS**********************************/
+#copyright {
+  color: #eaf6f6;
+}
