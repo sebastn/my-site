@@ -89,7 +89,6 @@ hr {
 
 .footer-link {
   margin: 15px;
-width: 50%;
 }
 
 .BUTTON_AHR {
@@ -143,12 +142,15 @@ width: 50%;
 }
 
 .contact-me {
-  line-height: 2;
   width: 50%;
   margin: 100px auto 100px auto;
   line-height: 2;
 }
 
+.footer-container{
+  width: 50%;
+  margin: 15px auto 1px auto;
+}
 /*
 .machine-learning-paragraph{
   clear: right;
