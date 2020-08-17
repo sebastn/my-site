@@ -71,7 +71,6 @@ hr {
 .profile {
   width: 50%;
   margin: 100px auto 100px auto;
-  text-align: center;
   line-height: 2;
 }
 
@@ -143,6 +142,9 @@ hr {
 
 .contact-me {
   line-height: 2;
+width: 50%;
+margin: 100px auto 100px auto;
+line-height: 2;
 }
 
 /*
